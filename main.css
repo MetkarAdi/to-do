@@ -1,0 +1,62 @@
+    /* 
+    --background: #151616
+    --darker: #1f2937
+    --Blue: #148DD3
+    --midBlue: #0E6394
+    --lightBlue: #17A0EF
+    --white : white
+    --black: black
+    --purple: #8B5cf6
+    --gray: #6b7280 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction:  column;
+    min-height: 100vh;
+    background: #151616;
+    color: #148DD3;
+}
+
+header {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #148DD3;
+}
+
+#new-task {
+    display: flex;
+}
+
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: #0E6394
+}
+
+#new-task-input {
+    flex: 1 1 0%;
+    background-color: #1f2937;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    color: #17A0EF;
+}
