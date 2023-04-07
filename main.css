@@ -7,6 +7,7 @@
     --white : white
     --black: black
     --purple: #8B5cf6
+    --pink: #ec4899
     --gray: #6b7280 */
 
 * {
@@ -54,9 +55,33 @@ input, button {
     padding: 0.8rem;
     border-radius: 0.5rem;
     margin-right: 1rem;
+    color: #17A0EF;
+    font-size: 1.25rem;
     -webkit-border-radius: 0.5rem;
     -moz-border-radius: 0.5rem;
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
-    color: #17A0EF;
+}
+
+#new-task-create {
+    color: #8B5cf6;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #ec4899, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+} 
+
+#new-task-create:hover {
+    opacity: 0.8;
+}
+
+#new-task-create:active {
+    opacity: 0.6;
 }
