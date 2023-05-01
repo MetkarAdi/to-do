@@ -14,6 +14,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: sans-serif;
+    
 }
 
 body {
@@ -22,6 +23,7 @@ body {
     min-height: 100vh;
     background: #151616;
     color: #148DD3;
+    
 }
 
 header {
@@ -67,7 +69,7 @@ input, button {
     color: #8B5cf6;
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient(to right, #ec4899, #8b5cf6);
+    background-image: linear-gradient(to right, #5456ed, #8b5cf6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -166,7 +168,7 @@ main {
 }
 
 .task .actions .edit {
-    background-image: linear-gradient(to right, #ec4899, #8b5cf6);
+    background-image: linear-gradient(to right, #5456ed, #8b5cf6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

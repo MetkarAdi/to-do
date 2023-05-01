@@ -8,7 +8,7 @@ window.addEventListener( 'load', () => {
 
         const task = input.value;
         if(!task) {
-            alert("Please fill out task (empty mat dal bhai)");
+            alert("Please fill the task!");
             return;
         }
 
@@ -60,7 +60,7 @@ window.addEventListener( 'load', () => {
         })
 
         task_delete_element.addEventListener('click', () => {
-            task_element.removeChild(task_element);
+            list_element.removeChild(task_element);
         })
     })
 })
